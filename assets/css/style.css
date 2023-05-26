@@ -1,0 +1,154 @@
+/* Reset CSS */
+
+:root {
+    --color-white-smoke: rgba(245, 245, 245, 1);
+    --color-dim-gray: rgba(105, 105, 105, 0.6);
+    --color-light-gray: #D9D9D9;
+}
+
+body {
+    overflow: hidden; /* Hide scrollbars */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, a:visited {
+    color: black;
+    text-decoration: none !important;
+}
+
+.no-select {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+.link,
+.header-contact-icon,
+.header-contact-icon-small {
+    text-decoration: none;
+    color: black;
+}
+
+#header-name {
+    font-size: 4rem;
+}
+
+.header-contact-icon {
+    font-size: 3.5rem;
+}
+
+.header-contact-icon-small {
+    font-size: 2.5rem !important;
+    max-width: 100% !important;
+    max-height: 100% !important;
+    height: 3.75rem !important;
+    line-height: 3.75rem !important;
+    text-align: center !important;
+}
+
+.main-content {
+    height: calc(100vh - 250px)
+}
+
+.box-content {
+    text-transform: uppercase;
+    font-size: 1.75rem;
+    padding: 1rem 4rem;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.box {
+    width: 100%;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+.bg-signature-img {
+    background-image: url("../images/main-page/signature.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -1;
+    background-position: 20% 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-blend-mode: lighten;
+}
+
+.box-icon {
+    position: absolute;
+    z-index: 1;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.icon-1 {
+    transform: translateX(-40%) translateY(-30%) rotate(10.07deg);
+}
+
+.icon-2 {
+    transform: translateX(-40%) translateY(-40%);
+}
+
+.icon-3 {
+    top: 0;
+    left: 100%;
+    transform: translateX(-50%) translateY(25%) rotate(28.94deg);
+}
+
+.icon-4 {
+    top: 100%;
+    left: 100%;
+    transform: translateX(-60%) translateY(-70%);
+    width: 4rem;
+    height: 4rem;
+}
+
+.icon-5 {
+    top: 80%;
+    left: 90%;
+    transform: translateX(-10%) translateY(-40%) rotate(8.65deg);
+}
+
+.main-content, #intro-info, #header-contact-icon-container {
+    display: none;
+}
+
+#about-me-header, #education-header, #work-exp-header, #personal-proj-header, #tech-skills-header {
+    display: none;
+}
+
+#about-me-header {
+    display: block;
+}
+
+.icon-box-header {
+    font-size: 1.25rem;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: solid 2px rgba(0, 0, 0, 1);
+}
