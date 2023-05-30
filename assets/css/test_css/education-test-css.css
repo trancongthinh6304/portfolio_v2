@@ -1,0 +1,85 @@
+.education {
+    display: block!important;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 5rem;
+}
+
+.part-1-wrapper {
+    width: 50%;
+}
+
+.part-2-wrapper {
+    width: 50%;
+}
+
+.line {
+    height: 60%;
+    width: 0px;
+    border: 1px solid #000000;
+}
+
+#asu-logo {
+    background-image: url("../../images/education/asu-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 128px;
+}
+
+#lhp-logo {
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    height: 128px;
+}
+
+.dot {
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: #D9D9D9;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.school-location {
+    font-style: italic;
+    text-align: end;
+    transform: translateY(-2.5rem);
+}
+
+.school-info {
+    padding-left: 1.5rem;
+    /* transform: translateY(-2.5rem); */
+    margin-top: -2.5rem;
+    font-style: italic;
+    font-size: 1.25rem;
+}
+
+.year {
+    font-size: 1.5rem;
+    padding: 1.75rem;
+    text-align: center;
+    width: 8rem;
+}
+
+.award-name {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 1.75rem;
+    width: 500px;
+}
+
+.award-line-1 {
+    position: relative;
+    height: 6rem;
+}
+
+.award-description {
+    margin-left: 9.75rem;
+    font-size: 1.25rem;
+    font-style: italic;
+}

@@ -7,7 +7,8 @@
 }
 
 body {
-    overflow: hidden; /* Hide scrollbars */
+    overflow: hidden;
+    /* Hide scrollbars */
 }
 
 * {
@@ -20,7 +21,8 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: black;
     text-decoration: none !important;
 }
@@ -65,7 +67,7 @@ a, a:visited {
     text-align: center !important;
 }
 
-.main-content {
+.main-page-wrapper {
     height: calc(100vh - 250px)
 }
 
@@ -86,14 +88,35 @@ a, a:visited {
     position: relative;
 }
 
-.bg-signature-img {
-    background-image: url("../images/main-page/signature.png");
+.bg-img {
+    transition-delay: .1s;
+    background-image: url("../images/main-page/rainbow-main.png");
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
     background-position: 20% 0;
-    background-color: rgba(255, 255, 255, 0.1);
-    background-blend-mode: lighten;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-blend-mode: lighten; */
+}
+
+.bg-img:has(#js-education-btn:hover) {
+    background-image: url("../images/main-page/yellow-win.png");
+}
+
+.bg-img:has(#js-work-exp-btn:hover) {
+    background-image: url("../images/main-page/brown-orange-mountain.png");
+}
+
+.bg-img:has(#js-personal-projs-btn:hover) {
+    background-image: url("../images/main-page/blue-signature.png");
+}
+
+.bg-img:has(#js-technical-skills-btn:hover) {
+    background-image: url("../images/main-page/purple-flowers.png");
+}
+
+.bg-img:has(#js-about-me-btn:hover) {
+    background-image: url("../images/main-page/pink-social.png");
 }
 
 .box-icon {
@@ -133,17 +156,41 @@ a, a:visited {
     transform: translateX(-10%) translateY(-40%) rotate(8.65deg);
 }
 
-.main-content, #intro-info, #header-contact-icon-container {
+/* #about-me-header,
+#education-header,
+#work-exp-header,
+#personal-proj-header,
+#tech-skills-header {
     display: none;
 }
 
-#about-me-header, #education-header, #work-exp-header, #personal-proj-header, #tech-skills-header {
-    display: none;
+.about-me,
+.education,
+.work-exp,
+.technical-skills,
+.personal-projs {
+    display: none!important;
 }
 
-#about-me-header {
-    display: block;
+.main-content .about-me,
+.main-content .education,
+.main-content .work-exp,
+.main-content .technical-skills,
+.main-content .personal-projs {
+    display: block!important;
+} */
+
+.hide {
+    display: none!important;
 }
+
+/* .show-flex {
+    display: flex!important;
+}
+
+.show-block {
+    display: block!important;
+} */
 
 .icon-box-header {
     font-size: 1.25rem;

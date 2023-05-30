@@ -1,0 +1,15 @@
+.skill-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.skill-icon-wrapper {    
+    border-radius: 50%;
+    border: 2px solid #000000;
+    padding: .75rem;
+    margin: .75rem .75rem 0 .75rem;
+}
+
+.skill-title {
+    text-align: center;
+}

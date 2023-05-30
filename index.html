@@ -28,42 +28,42 @@
             <!-- Header intro -->
             <div class="col-auto pe-5 ms-5">
                 <h1 id="header-name" class="pt-5 ps-3">THINH, TRAN C.</h1>
-                <h5 id="intro-info" class="pt-1 ps-5">
+                <h5 id="intro-info" class="pt-1 ps-5 main-page-content">
                     Sophomore @ Arizona State University <br>
                     B/S Computer Science <br>
                     B/S Mathematics <br>
                     Minor in Economics
                 </h5>
 
-                <div class="header-title mt-5 about-me" id="about-me-header">
+                <div class="header-title mt-5 about-me-content" id="about-me-header">
                     <div class="box">
                         <div class="box-icon icon-1" style="background-image: url('./assets/images/icons/booger.png');"></div>
                         <h4 class="box-content">About Me!</h4>
                     </div>
                 </div>
 
-                <div class="header-title mt-5 education" id="education-header">
+                <div class="header-title mt-5 education-content" id="education-header">
                     <div class="box">
                         <div class="box-icon icon-2" style="background-image: url('./assets/images/icons/tallo.png');"></div>
                         <h4 class="box-content">Educations</h4>
                     </div>
                 </div>
 
-                <div class="header-title mt-5 work-exp" id="work-exp-header">
+                <div class="header-title mt-5 work-exp-content" id="work-exp-header">
                     <div class="box">
                         <div class="box-icon icon-3" style="background-image: url('./assets/images/icons/chemistry.png');"></div>
                         <h4 class="box-content">Work Experience</h4>
                     </div>
                 </div>
 
-                <div class="header-title mt-5 personal-proj" id="personal-proj-header">
+                <div class="header-title mt-5 personal-projs-content" id="personal-proj-header">
                     <div class="box">
                         <div class="box-icon icon-4" style="background-image: url('./assets/images/icons/labyrinth.png');"></div>
                         <h4 class="box-content">Personal Projects</h4>
                     </div>
                 </div>
 
-                <div class="header-title mt-5 technical-skills" id="tech-skills-header">
+                <div class="header-title mt-5 technical-skills-content" id="tech-skills-header">
                     <div class="box">
                         <div class="box-icon icon-5" style="background-image: url('./assets/images/icons/writing.png');"></div>
                         <h4 class="box-content">Technical Skills</h4>
@@ -92,7 +92,7 @@
                 </div>
 
                 <!-- Row 2 -->
-                <div class="row h-50 align-items-end" id="header-contact-icon-container">
+                <div class="row h-50 align-items-end main-page-content" id="header-contact-icon-container">
                     <div class="col">
                         <a href="https://github.com/trancongthinh6304" class="header-contact-icon-small btn btn-light">
                             <i class="ti-github"></i>
@@ -111,7 +111,7 @@
                 </div>
 
                 <!-- Row 2 for ABOUT-ME section -->
-                <div class="row h-50 align-items-end">
+                <div class="row h-50 align-items-end about-me-content">
                     <div class="col d-flex">
                         <a class="icon-box-header d-flex justify-content-center align-items-center" href="" id="fb-icon">
                             <i class="ti-facebook"></i>
@@ -142,22 +142,22 @@
             </div>
     </header>
         
-    <div class="main-content container bg-signature-img">
+    <div class="main-page-wrapper main-page-content container bg-img">
         <div class="row h-50 d-flex align-items-end">
             <div class="col-4">
-                <div class="box">
+                <div class="box" id="js-about-me-btn">
                     <div class="box-icon icon-1" style="background-image: url('./assets/images/icons/booger.png');"></div>
                     <h4 class="box-content">About Me!</h4>
                 </div>
             </div>
             <div class="col-4">
-                <div class="box">
+                <div class="box" id="js-education-btn">
                     <div class="box-icon icon-2" style="background-image: url('./assets/images/icons/tallo.png');"></div>
                     <h4 class="box-content">Educations</h4>
                 </div>
             </div>
             <div class="col-4">
-                <div class="box">
+                <div class="box" id="js-work-exp-btn">
                     <div class="box-icon icon-3" style="background-image: url('./assets/images/icons/chemistry.png');"></div>
                     <h4 class="box-content">Work Experience</h4>
                 </div>
@@ -165,13 +165,13 @@
         </div>
         <div class="row mt-5 d-flex justify-content-center">
             <div class="col-4">
-                <div class="box">
+                <div class="box" id="js-personal-projs-btn">
                     <div class="box-icon icon-4" style="background-image: url('./assets/images/icons/labyrinth.png');"></div>
                     <h4 class="box-content">Personal Projects</h4>
                 </div>
             </div>
             <div class="col-4">
-                <div class="box">
+                <div class="box" id="js-technical-skills-btn">
                     <div class="box-icon icon-5" style="background-image: url('./assets/images/icons/writing.png');"></div>
                     <h4 class="box-content">Technical Skills</h4>
                 </div>
@@ -179,46 +179,34 @@
         </div>
     </div>
 
+    <div class="about-me about-me-content">
+        ABOUT ME
+    </div>
 
-        <!-- 
+    <div class="education education-content">
+        EDUCATION
+    </div>
 
-        <div class="body-content about-me">
-            <div id="about-me-header">
-                <div class="section-header">
-                    About Me
-                </div>
+    <div class="work-exp work-exp-content">
+        WORK EXP
+    </div>
 
-                <div id="about-me-contacts-container">
-                    <a href="" id="fb-icon">
-                        <i class="ti-facebook"></i>
-                    </a>
+    <div class="personal-projs personal-projs-content">
+        PERSONAL PROJS
+    </div>
 
-                    <a href="" id="ig-icon">
-                        <i class="ti-instagram"></i>
-                    </a>
-
-                    <a href="" id="reddit-icon">
-                        <i class="ti-reddit"></i>
-                    </a>
-
-                    <a href="" id="twitter-icon">
-                        <i class="ti-twitter"></i>
-                    </a>
-                </div>
-
-                <p>
-                    Lorem ipsum dolor sit amet, id sea quando splendide theophrastus. Expetenda reprimique duo ea. Inani
-                    nobis no mei, fuisset intellegebat has ea. Adipiscing reformidans te his. Quot accusamus in eos.
-                </p>
-            </div>
-
-
-        </div> -->
+    <div class="technical-skills technical-skills-content">
+        TECHNICAL SKILLS
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+
+    <!-- Internal JS -->
+    <script src="./assets/js/showHideControl.js"></script>
+
 </body>
 </body>
 
